@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	go boring("boring!")
+	go boring("boring!") // shouldn't run because main returns
 }
 
 func boring(msg string) {
